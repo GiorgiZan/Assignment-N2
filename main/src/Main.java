@@ -12,7 +12,10 @@ public class Main {
             System.out.println("File is not found");
         } catch (InvalidNumberException e) {
             System.out.println(e.getMessage());;
+        } catch (NumberFormatException e){
+            System.out.println("Enter numbers only");
         }
+
 
 
 

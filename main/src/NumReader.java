@@ -23,7 +23,7 @@ public class NumReader {
 
             }
         }catch ( NumberFormatException e){
-            System.out.println("please enter only numbers ");
+          throw new NumberFormatException();
         }
 
         scanner.close();
